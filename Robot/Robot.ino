@@ -10,7 +10,8 @@ Servo motor2;
 
 void setup()
 {
-  Serial.begin(115200);
+
+Serial.begin(115200);
 pinMode(D8,OUTPUT); 
 pinMode(D5,INPUT);
 motor1.attach(motor1pin); 
@@ -30,7 +31,6 @@ delay(1000);
   {
     motor1.write(90);
     motor2.write(90);
-
     motor1.write(180);
     motor2.write(180);
 
