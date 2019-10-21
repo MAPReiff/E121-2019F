@@ -7,8 +7,6 @@
 Servo motor1; 
 Servo motor2;
 
-
-
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200); //check sensor data
@@ -17,7 +15,6 @@ void setup() {
   motor1.attach(motor1pin); 
   motor2.attach(motor2pin);
   delay(5000);
-
 
 }
 
@@ -35,7 +32,6 @@ void loop() {
     motor1.write(180);
     motor2.write(0);
 
-
   }
   else{
     //spin code
@@ -52,7 +48,6 @@ void loop() {
     
 
   }
-  
 
 }
 
