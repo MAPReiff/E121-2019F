@@ -29,7 +29,7 @@ void loop() {
 
   if (distance > 7){
     //forward code
-    motor1.write(180);
+    motor1.write(150);
     motor2.write(0);
 
   }
@@ -40,7 +40,7 @@ void loop() {
     delay(2000);
     motor1.write(180);
     motor2.write(180);
-    delay(650);
+    delay(700);
 
     motor1.write(90);
     motor2.write(90);
