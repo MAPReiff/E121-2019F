@@ -27,20 +27,20 @@ void loop() {
   Serial.println(distance);
 
 
-  if (distance > 7){
+  if (distance > 3){
     //forward code
     motor1.write(150);
     motor2.write(0);
 
   }
-  else{
+  else if(distance == 3 && distance != 0){
     //spin code
     motor1.write(90);
     motor2.write(90);
     delay(2000);
-    motor1.write(180);
-    motor2.write(180);
-    delay(700);
+    motor1.write(0);
+    motor2.write(0);
+    delay(375);
 
     motor1.write(90);
     motor2.write(90);
@@ -48,6 +48,21 @@ void loop() {
     
 
   }
+//  else{
+//    //spin code
+//    motor1.write(90);
+//    motor2.write(90);
+//    delay(2000);
+//    motor1.write(0);
+//    motor2.write(0);
+//    delay(375);
+//
+//    motor1.write(90);
+//    motor2.write(90);
+//    delay(3000);
+//    
+//
+//  }
 
 }
 
