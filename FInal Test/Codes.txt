@@ -1,0 +1,18 @@
+Forward
+right.write(20);
+left.write(130);
+
+
+Back
+right.write(110);
+left.write(60);
+
+//right turn
+    right.write(90);
+    left.write(130);
+    delay(340);
+
+  //left turn
+  right.write(20);
+  left.write(90);
+  delay(340);
