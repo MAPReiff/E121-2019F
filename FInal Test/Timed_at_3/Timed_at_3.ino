@@ -42,7 +42,7 @@ void setup() {
 //right turn
     right.write(90);
     left.write(130);
-    delay(320);
+    delay(300);
 
 //stop
     left.write(90);
@@ -64,7 +64,7 @@ void setup() {
 //back up
     right.write(110);
     left.write(60);
-    delay(650);
+    delay(680);
 
   //stop
   left.write(90);
@@ -75,7 +75,7 @@ void setup() {
   //left turn
   right.write(20);
   left.write(90);
-  delay(200);
+  delay(160);
 
   //stop
   right.write(90);
@@ -84,7 +84,7 @@ void setup() {
   //forward
   right.write(20);
   left.write(130);
-  delay(820);
+  delay(910);
 
   //stop
  right.write(90);
@@ -95,7 +95,7 @@ void setup() {
  //turn left
    right.write(20);
   left.write(90);
-  delay(390);
+  delay(380);
 
   //stop
   right.write(90);
@@ -129,7 +129,7 @@ delay(400);
 //turn arround
     right.write(90);
     left.write(130);
-    delay(850);
+    delay(835);
 
 //stop
     right.write(90);
@@ -151,7 +151,7 @@ delay(400);
 //back up
     right.write(110);
     left.write(60);
-    delay(175);
+    delay(165);
 
     //stop
     left.write(90);
@@ -161,7 +161,7 @@ delay(400);
     //turn arround
     right.write(90);
     left.write(130);
-    delay(740);
+    delay(750);
 
     //stop
     left.write(90);
@@ -171,7 +171,7 @@ delay(400);
 //forward back to D
   right.write(20);
   left.write(130);
-  delay(550);
+  delay(400);
 
 //stop
 left.write(90);
@@ -182,7 +182,7 @@ delay(400);
     //turn left
     right.write(20);
     left.write(90);
-    delay(360);
+    delay(400);
 
         //stop
     left.write(90);
@@ -192,7 +192,7 @@ delay(400);
     //forward
   right.write(20);
   left.write(130);
-  delay(1300);
+  delay(690);
 
   //stop
    right.write(90);
@@ -211,7 +211,7 @@ delay(400);
     delay(300);
 
     
-  //forward
+  //forward to C
   right.write(20);
   left.write(130);
   delay(690);
@@ -224,7 +224,7 @@ delay(400);
     //back up
     right.write(110);
     left.write(60);
-    delay(340);
+    delay(165);
 
       //stop
     left.write(90);
@@ -234,7 +234,7 @@ delay(400);
   //left turn
   right.write(20);
   left.write(90);
-  delay(400);
+  delay(280);
     //stop
     left.write(90);
     right.write(90);
@@ -243,7 +243,7 @@ delay(400);
       //forward
   right.write(20);
   left.write(130);
-  delay(500);
+  delay(360);
 
     //stop
     left.write(90);
@@ -257,36 +257,3 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-
-//void forward(){
-//
-//right.print(20);
-//left.print(150);
-//  
-//}
-//
-//void backwards(){
-//
-//right.print(110);
-//left.print(60);
-//  
-//}
-//
-//void turnLeft(){
-//    right.write(20);
-//    left.write(90);
-//  
-//}
-//
-//void turnRight(){
-//    right.write(90);
-//    left.write(130);
-//  
-//}
-//
-//void halt(){
-//
-//left.write(90);
-//right.write(90);
-//  
-//}

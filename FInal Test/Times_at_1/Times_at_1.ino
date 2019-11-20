@@ -19,7 +19,7 @@ void setup() {
 //to point 4
   right.write(20);
   left.write(130);
-  delay(675);
+  delay(750);
 
   //stop
     right.write(90);
@@ -43,7 +43,7 @@ void setup() {
         //forward to 3/b
     right.write(20);
     left.write(130);
-    delay(1300);
+    delay(1515);
 
         //stop
     left.write(90);
@@ -53,18 +53,20 @@ void setup() {
     //turn left to B
    right.write(20);
     left.write(90);
-  delay(410);
+  delay(400);
 
   //stop
   right.write(90);
   left.write(90);
   delay(600);
 
+// ====================
+
 //forward to B
     right.write(20);
     left.write(130);
 //    delay(872);
-    delay(800);
+    delay(730);
 
 
 //stop at B
@@ -75,7 +77,7 @@ void setup() {
 //back up
     right.write(110);
     left.write(60);
-    delay(600);
+    delay(695);
 
   //stop
   left.write(90);
@@ -86,7 +88,7 @@ void setup() {
   //left turn
   right.write(20);
   left.write(90);
-  delay(380);
+  delay(180);
 
   //stop
   right.write(90);
@@ -95,7 +97,7 @@ void setup() {
   //forward
   right.write(20);
   left.write(130);
-  delay(800);
+  delay(1050);
 
   //stop
  right.write(90);
@@ -106,7 +108,7 @@ void setup() {
  //turn left
    right.write(20);
   left.write(90);
-  delay(410);
+  delay(380);
 
   //stop
   right.write(90);
@@ -116,7 +118,7 @@ void setup() {
   //forward to D
   right.write(20);
 left.write(130);
-delay(680);
+delay(400);
 
   //stop
   right.write(90);
@@ -140,7 +142,7 @@ delay(680);
 //turn arround
     right.write(90);
     left.write(130);
-    delay(875);
+    delay(835);
 
 //stop
     right.write(90);
@@ -151,7 +153,7 @@ delay(680);
 
     right.write(20);
     left.write(130);
-    delay(800);
+    delay(700);
 
     //stop
     right.write(90);
@@ -162,7 +164,7 @@ delay(680);
 //back up
     right.write(110);
     left.write(60);
-    delay(100);
+    delay(165);
 
     //stop
     left.write(90);
@@ -172,22 +174,28 @@ delay(680);
     //turn arround
     right.write(90);
     left.write(130);
-    delay(875);
+    delay(750);
 
     //stop
     left.write(90);
     right.write(90);
     delay(400);
 
-//forward
+//forward back to D
   right.write(20);
   left.write(130);
-  delay(600);
+  delay(400);
+
+//stop
+left.write(90);
+right.write(90);
+delay(400);
+  
 
     //turn left
     right.write(20);
     left.write(90);
-    delay(360);
+    delay(400);
 
         //stop
     left.write(90);
@@ -197,7 +205,7 @@ delay(680);
     //forward
   right.write(20);
   left.write(130);
-  delay(1300);
+  delay(690);
 
   //stop
    right.write(90);
@@ -216,7 +224,7 @@ delay(680);
     delay(300);
 
     
-  //forward
+  //forward to C
   right.write(20);
   left.write(130);
   delay(690);
@@ -229,52 +237,61 @@ delay(680);
     //back up
     right.write(110);
     left.write(60);
-    delay(340);
+    delay(175);
 
       //stop
     left.write(90);
     right.write(90);
     delay(300);
 
-     //right turn
+// ====================
+
+//right turn
     right.write(90);
     left.write(130);
-    delay(340);
+    delay(390);
 
-  //stop
+//stop
     left.write(90);
 
     delay(300);
 
- //forward
-  right.write(20);
-  left.write(130);
-  delay(550);
-
-  //stop
-    left.write(90);
-    right.write(90);
-    delay(550);
-
-     //right turn
-    right.write(90);
+//forward to 4
+      right.write(20);
     left.write(130);
-    delay(340);
+    delay(1500);
 
-  //stop
-    left.write(90);
-
-    delay(300);
-
-      //forward from 4 to 1 
-  right.write(20);
-  left.write(130);
-  delay(600);
-
-  
         //stop
-        left.write(90);
-        right.write(90);
+    left.write(90);
+    right.write(90);
+    delay(400);
+
+
+//right turn
+    right.write(90);
+    left.write(130);
+    delay(300);
+
+//stop
+    left.write(90);
+
+    delay(300);
+
+    //forward 4 to 1
+  right.write(20);
+  left.write(130);
+  delay(685);
+
+  //stop
+    right.write(90);
+    left.write(90);
+    delay(400);
+    
+    
+
+    
+
+
 
 }
 
